@@ -18,8 +18,8 @@ export default async function handler(
     // Define the image types and their file paths
     const imageTypes = [
       { type: 'high', path: `4000x4000backgrounds/${nftId}.png` },
-      { type: 'normal', path: `4000x4000backgrounds/${nftId}.png` },
-      { type: 'nobg', path: `4000x4000backgrounds/${nftId}.png` }
+      { type: 'normal', path: `thumbnail/${nftId}.png` },
+      { type: 'nobg', path: `4000x4000pngs/${nftId}.png` }
     ];
 
     const imageDataArray = [];
