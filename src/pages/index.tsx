@@ -130,7 +130,7 @@ const Home: NextPage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 via-pink-900 to-indigo-900 relative overflow-hidden">
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-indigo-900 relative overflow-hidden">
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute -top-40 -right-40 w-80 h-80 bg-purple-500 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-blob"></div>
@@ -260,7 +260,7 @@ const Home: NextPage = () => {
                       
                       {/* Modal Content */}
                       <div className="relative z-10">
-                        <h2 className="text-5xl font-black text-center text-white mb-8 drop-shadow-lg bg-gradient-to-r from-pink-400 to-blue-400 bg-clip-text text-transparent">
+                        <h2 className="text-5xl font-black text-center text-white mb-8 drop-shadow-lg bg-gradient-to-r from-pink-400 to-blue-400 bg-clip-text">
                           {selectedNFT.name}
                         </h2>
                         
